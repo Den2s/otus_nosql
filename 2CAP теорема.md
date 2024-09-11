@@ -3,7 +3,7 @@
 #### MongoDB, MSSQL, Cassandra.
 
 
-[![N|Solid](https://avatars.mds.yandex.net/get-entity_search/7689129/798488049/S600xU_2x)]
+![N|Solid](https://avatars.mds.yandex.net/get-entity_search/7689129/798488049/S600xU_2x)
 
 
 ## Нашел картинку с ответом:
