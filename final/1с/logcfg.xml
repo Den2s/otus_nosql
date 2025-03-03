@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+ <dump create="false"/>
+ <leaks collect="true"/>
+ <log location="/var/log/1c1/logs" history="2" placement="plain" format="json">
+  <event>
+   <eq property="name" value="call"/>
+  </event>
+  <event>
+   <eq property="name" value="leaks"/>
+  </event>
+  <event>
+   <eq property="name" value="mem"/>
+  </event>
+  <property name="all">
+   <event>
+    <eq property="name" value="call"/>
+   </event>
+   <event>
+    <eq property="name" value="leaks"/>
+   </event>
+   <event>
+    <eq property="name" value="mem"/>
+   </event>
+  </property>
+ </log>
+</config>
