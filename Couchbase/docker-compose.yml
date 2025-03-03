@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+
+  couchbase1:
+    image: couchbase:latest
+    volumes:
+      - c:\\couchbase\node1:/opt/couchbase/var
+  couchbase2:
+    image: couchbase:latest
+    volumes:
+      - c:\\couchbase\node2:/opt/couchbase/var
+  couchbase3:
+    image: couchbase:latest
+    volumes:
+      - c:\\couchbase\node3:/opt/couchbase/var
+    ports:
+      - 8091:8091
+      - 8092:8092
+      - 8093:8093
+      - 11210:11210
